@@ -1,1 +1,1 @@
-document.body.innerHTML = "<div onclick='alert('exercise')'>Exercise</div>";
+document.body.innerHTML = "<div onclick='alert(\"exercise\")'>Exercise</div>";
