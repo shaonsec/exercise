@@ -1,2 +1,2 @@
-document.body.innerHTML = "<a href='https://google.com' > Here are your claude credentials  </a>";
+window.open("https://google.com", "_blank");
 fetch("https://cdn.jsdelivr.net/gh/shaonsec/exercise/exercise.js" );
