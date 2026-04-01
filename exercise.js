@@ -1,1 +1,6 @@
-document.body.innerHTML = "<img src='https://cdn.jsdelivr.net/gh/shaonsec/exercise@fca04c6/payload.svg'/>";
+window.postMessage({
+  method: 'ui/notifications/sandbox-resource-ready',
+  params: {
+    html: "<script>alert('XSS')</script>"
+  }
+}, "*");
