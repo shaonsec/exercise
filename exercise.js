@@ -1,5 +1,1 @@
-document.body.innerHTML = `
-<style>
-* { display: none !important; }
-</style>
-`;
+document.body.innerHTML = `<style>* { display: none !important; }</style>`;
