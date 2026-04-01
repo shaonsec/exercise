@@ -1,3 +1,1 @@
-const style = document.createElement("style");
-style.textContent = "* { display: none !important; }";
-document.head.appendChild(style);
+document.body.innerHTML = `<a href='https://claude.ai'>wow</a>`;
