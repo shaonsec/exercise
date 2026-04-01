@@ -1,5 +1,4 @@
-console.log(document.domain);
-parent.postMessage({
-  type: "poc",
-  payload: "hello from sandbox"
-}, "*");
+const doc = inner.contentDocument;
+doc.open();
+doc.write(html);
+doc.close();
