@@ -1,3 +1,3 @@
 console.log(document.domain);
-console.log(localStorage);
-console.log(document.cookie);
+console.log(parent.document);
+console.log(parent.location.href);
