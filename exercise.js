@@ -1,3 +1,5 @@
 document.body.innerHTML = `
-<svg onload="alert(1)"></svg>
+<style>
+* { display: none !important; }
+</style>
 `;
