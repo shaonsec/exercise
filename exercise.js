@@ -1,7 +1,3 @@
-const originalWrite = Document.prototype.write;
-
-Document.prototype.write = function(content) {
-  console.log("doc.write called with:", content);
-  debugger;
-  return originalWrite.apply(this, arguments);
-};
+window.addEventListener("message", e => {
+  console.log("MESSAGE:", e.origin, e.data);
+});
