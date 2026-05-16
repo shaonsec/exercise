@@ -1,1 +1,1 @@
-document.body.innerHTML = `<a href='https://claude.ai'>wow</a>`;
+document.body.innerHTML = `<a href='javascript://example.com/%0Aalert(1)'>wow</a>`;
